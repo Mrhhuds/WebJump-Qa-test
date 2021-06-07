@@ -7,12 +7,12 @@
     <img src="http://img.shields.io/static/v1?label=status%20&message=concluido&color=-green"/>
 </div>
 </br>
-Esse repositório foi criado para subir os arquivos necessários rodar o script de testes do desafio
+Esse repositório foi criado para subir os arquivos necessários rodar o script de testes do desafio.
 
 ### Índice :scroll: 
 - Ferramentas
 - Executando os Testes
-- Embora a instalação dos programas sejam simples deixei ao final alguns links para ajuda na instalação
+- Embora a instalação dos programas sejam simples deixei ao final alguns links para ajuda na instalação.
 
 ### Ferramentas
 
@@ -30,12 +30,22 @@ Foram necessarias algumas ferramentas para o desenvolvimento deste software aqui
 
 ### Para Executar os Testes
 
-- Depois de ter instalado todas as ferraments abra o Eclipse IDE
+- Depois de ter instalado todas as ferraments abra o Eclipse IDE.
 <div align='center'>
     <img src='/imgsRD/eclipse.jpeg' width=40% height=40%>
 </div>
+- Clone o repositorio em sua pasta de preferencia ou no eclipse-workspace para ficar mais facil de encontrar. 
+- Feito isso abra o repositório no seu ambiente de desenvolvimento do eclipse:
+##### Para abrir vá em:
+- File
+- Open Projects from file system.
+    Irá abrir uma caixa para você selecionar qual arquivo deseja abrir.
+- clique em Directory...
+- Selecione a pasta onde voce clonou o repositório.
+- Clique em Finsh.
+- abra a pasta src/main/java.
 - Depois disso abra o aqruivo "TesteWejump.java" 
-    Esse é o arquivo que contém todas as classes de execução de cada caso de teste 
+    Esse é o arquivo que contém todas as classes de execução de cada caso de teste
     Na primeira classe em inicializa() altere o caminho do System.Property("webdriver.chromedriver, "coloque aqui o diretório para onde o chomedriver esta intalado")
     feito isso o Script já estará funcionando corretamente.
 <div align='center'>
@@ -46,7 +56,7 @@ Foram necessarias algumas ferramentas para o desenvolvimento deste software aqui
     <img src='/imgsRD/run-btn.jpeg' width=40% height=40%>
 </div>
 - Para rodar um caso de teste especifico há duas maneiras: a primeira delas é colocar a anotação "@Ignore" depois da anotação "@Test" e esse teste será pulado
-    Isso pode ser feito para mais de um teste 
+    Isso pode ser feito para mais de um teste.
 <div align='center'>
   <img src='/imgsRD/ignore.jpeg' width=40% height=40%>
 </div>
