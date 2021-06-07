@@ -7,6 +7,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import jdk.nashorn.internal.ir.annotations.Ignore;
+
 
 public class TesteWejump {
 	
@@ -39,7 +41,7 @@ public class TesteWejump {
 		 // metodo para verificar se nao estao sendo mostrados
 		Assert.assertFalse(dsl.botaoPresente("//div[@id='panel_body_one']//button[@id='btn_one']"));
 		Assert.assertFalse(dsl.botaoPresente("//div[@id='panel_body_one']//button[@id='btn_two']"));
-	//	Assert.assertFalse(dsl.botaoPresente("//div[@id='panel_body_one']//button[@id='btn_link']"));
+		Assert.assertFalse(dsl.botaoPresente("//div[@id='panel_body_one']//button[@id='btn_link']"));
 	}
 	
 	@Test // esse teste valida se os botoes dentro do iframe_buttons foram clicados e se nao estao sendo mostrados
@@ -56,7 +58,7 @@ public class TesteWejump {
 		// metodo para verificar se os botoes estao presentes
 		Assert.assertFalse(dsl.botaoPresente("//div[@class='col-sm-12']//button[@id='btn_one']"));
 		Assert.assertFalse(dsl.botaoPresente("//div[@class='col-sm-12']//button[@id='btn_two']"));
-	//	Assert.assertFalse(dsl.botaoPresente("//div[@class='col-sm-12']//button[@id='btn_link']"));
+		Assert.assertFalse(dsl.botaoPresente("//div[@class='col-sm-12']//button[@id='btn_link']"));
 	}
 	
 	@Test // esse teste valida se o nome foi inserido corretamente se o botao foi clicado, se o combo foi selecionado corretamente
