@@ -36,10 +36,13 @@ Foram necessarias algumas ferramentas para o desenvolvimento deste software aqui
 </div>
 - Clone o repositorio em sua pasta de preferencia ou no eclipse-workspace para ficar mais facil de encontrar. 
 - Feito isso abra o repositório no seu ambiente de desenvolvimento do eclipse:
+
+
 ##### Para abrir vá em:
+
+
 - File
-- Open Projects from file system.
-    Irá abrir uma caixa para você selecionar qual arquivo deseja abrir.
+- Open Projects from file system. Irá abrir uma caixa para você selecionar qual arquivo deseja abrir.
 - clique em Directory...
 - Selecione a pasta onde voce clonou o repositório.
 - Clique em Finsh.
